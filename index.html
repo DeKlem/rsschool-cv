@@ -11,21 +11,35 @@
     <div class="container">
       <figure>
         <img class="avatar" src="./photo/avatar.jpg" alt="photo" />
+        <figcaption>My avatar</figcaption>
       </figure>
-      <h1 class="Name">Dmitrii Kleimenov</h1>
-      <h3>Contacts for contacting me:</h3>
-      <a href="mailto:domenic_klem@mail.ru">domenic_klem@mail.ru</a>
+      <header>
+        <h1 class="Name">Dmitrii Kleimenov</h1>
+        <h3>Contacts for contacting me:</h3>
+        <ul>
+          <li>
+            <a href="mailto:domenic_klem@mail.ru">domenic_klem@mail.ru</a>
+          </li>
+          <li><a href="tel:547921">54-79-21</a></li>
+        </ul>
+      </header>
       <hr />
-      <h3>Information about me:</h3>
-      <p>
-        The main purpose of my stay at the courses is to obtain the necessary
-        base, structuring and generalization of knowledge,and in general, to
-        obtain tools that allow me to develop in working with programming
-        languages
-      </p>
+      <article>
+        <h3>Information about me:</h3>
+        <p>
+          The main purpose of my stay at the courses is to obtain the necessary
+          base, structuring and generalization of knowledge,and in general, to
+          obtain tools that allow me to develop in working with programming
+          languages
+        </p>
+      </article>
       <hr />
       <h3>My skills:</h3>
-      <p>I am familiar with the basics of HTML,CSS</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+      </ul>
       <h5>Example:</h5>
       <code
         >const squares = Array.from({ length: 5 }, (_, i) => i + 1).map(x => x
@@ -42,6 +56,17 @@
       >
       <p>Elementary/Pre-intermediate</p>
       <hr />
+      <footer>
+        <a href="https://github.com/DeKlem">My github</a>
+        <time datetime="2021-07-26 19:00">july 26 2021</time>
+        <a href="https://rs.school/js"
+          ><img
+            src="https://rs.school/images/rs_school_js.svg"
+            alt="rs school logo"
+            width="30"
+            height="30"
+        /></a>
+      </footer>
     </div>
   </body>
 </html>

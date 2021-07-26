@@ -1,1 +1,1 @@
-https://deklem.github.io/rsschool-cv/
+https://Deklem.github.io/rsschool-cv/

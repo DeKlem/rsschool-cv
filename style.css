@@ -2,6 +2,9 @@
   max-width: 80%;
   margin: 0 auto;
 }
+.logo {
+  background-color: #ffffff;
+}
 body {
   background-color: #121212;
 }
@@ -35,4 +38,8 @@ code {
 a {
   color: #ffffff;
   font-style: italic;
+}
+li,
+time {
+  color: #ffffff;
 }

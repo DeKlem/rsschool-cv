@@ -1,0 +1,38 @@
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+body {
+  background-color: #121212;
+}
+div {
+  background-color: #121212;
+}
+p {
+  color: #808080;
+  font-size: 19px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: lighter;
+}
+h1 {
+  color: #808080;
+  font-style: italic;
+}
+h3 {
+  color: #4b0082;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+}
+h5 {
+  color: #4b0082;
+  font-style: oblique;
+}
+code {
+  color: #ffffff;
+}
+a {
+  color: #ffffff;
+  font-style: italic;
+}
